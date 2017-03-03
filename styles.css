@@ -27,8 +27,15 @@
     padding: 0;
 }
 
-#contact-us div#address {
+#contact-us div#address,
+#contact-us div#address iframe {
     margin-top: 16px;
+}
+
+#contact-us div#address iframe {
+    border: none;
+    width: 320px;
+    height: 160px;
 }
 
 #contact-us ul {
