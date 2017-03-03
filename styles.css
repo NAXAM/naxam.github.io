@@ -4,8 +4,49 @@
 }
 
 #cover {
-    margin: 144 auto;
+    margin: 120px auto 0 auto;
     display: block;
+}
+
+#contact-us {
+    display: block;
+    margin: 32 auto;
+}
+
+#contact-us h2 {
+    font-size: 18pt;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#contact-us ul, 
+#contact-us div#address {
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#contact-us div#address {
+    margin-top: 16px;
+}
+
+#contact-us ul {
+    list-style: none;
+}
+
+#contact-us ul li {
+    float: left;
+    margin: 8px;
+}
+
+#contact-us a {
+    display: block;
+    text-decoration: none;
+    width: 120px;
+    padding: 8px 16px;
+    color: white;
+    background-color: #4CAF50;
 }
 
 @media(max-width: 820px) {
