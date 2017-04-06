@@ -189,6 +189,7 @@ services
 }
 .service-info{
 	margin-bottom: 20px;
+    text-align: center;
 }
 .icon-info h4{
 	padding-bottom: 15px;
@@ -528,4 +529,5 @@ img.service-logo {
   max-height:64px;
   width: auto;
   height: auto;
+  margin: 0 auto;
 }
