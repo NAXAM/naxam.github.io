@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<htmllang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="NAXAM is a mobile native, Xamarin and ReactNative development company located in Hanoi, Vietnam.">
+    <meta name="keywords" content="mobile, native, xamarin, react-native, ios, android, swift, java, c#, azure, cloud">
+    
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+    <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style-custom.css">
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  	{% include banner.html %}
+
+    {% include services.html %}
+    
+    <!--{ include cta.html %}-->
+    
+    {% include about.html %}
+    
+    <!--{ include team.html %}
+    
+    { include testimonial.html %}-->
+    
+    <!--{ include cta2.html %}-->
+	
+    {% include contact.html %}
+	
+    {% include footer.html %}
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="contactform/contactform.js"></script>
+  </body>
+</html>
