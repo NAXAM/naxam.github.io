@@ -3,5 +3,5 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
-title: NAXAM - A mobile NATIVE, XAMARIN and ReactNative development company
+title: NAXAM - A mobile NATIVE and XAMARIN development company
 ---
